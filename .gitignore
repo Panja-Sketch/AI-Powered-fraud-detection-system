@@ -1,6 +1,8 @@
 # Ignore Python compiled files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -8,9 +10,45 @@ __pycache__/
 # Ignore model files
 *.pkl
 /models/
+*.h5
+*.onnx
+*.pt
+*.sav
 
 # Ignore database files
 *.db
+*.sqlite
+*.sqlite3
 
 # Ignore environment files
 *.env
+.envrc
+*.venv
+*.conda
+*.virtualenv
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Ignore large dataset files
+data/creditcard.csv
+
+# Ignore dependency directories
+node_modules/
+venv/
+dist/
+build/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
+
+
