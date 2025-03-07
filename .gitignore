@@ -1,0 +1,16 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files
+*.pkl
+/models/
+
+# Ignore database files
+*.db
+
+# Ignore environment files
+*.env
